@@ -1,6 +1,6 @@
 cask "koala" do
-  version "0.1.0"
-  sha256 "994a8f4702ffdf6acbe3701a887af11a58ac2ea93db2ee2a7eb5ce86fd5333c4"
+  version "0.1.1"
+  sha256 "16001efe3d0853bcd066631d180ccec13a5203436a5879ab729249a8ae2dfecd"
 
   url "https://github.com/eularixs/koala/releases/download/v#{version}/koala-#{version}.dmg"
   name "Koala"
