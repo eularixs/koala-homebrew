@@ -1,6 +1,6 @@
 cask "koala" do
-  version "0.1.1"
-  sha256 "16001efe3d0853bcd066631d180ccec13a5203436a5879ab729249a8ae2dfecd"
+  version "0.2.1"
+  sha256 "4f9be810294841ed9b9707779b48fe153707b7131a0a29163de6b13beeb97719"
 
   url "https://github.com/eularixs/koala/releases/download/v#{version}/koala-#{version}.dmg"
   name "Koala"
@@ -17,6 +17,7 @@ cask "koala" do
 
   zap trash: [
     "~/Library/Application Support/koala",
+    "~/Library/Application Support/Koala",
     "~/Library/Preferences/com.koala.plist",
     "~/Library/Caches/com.koala",
   ]
